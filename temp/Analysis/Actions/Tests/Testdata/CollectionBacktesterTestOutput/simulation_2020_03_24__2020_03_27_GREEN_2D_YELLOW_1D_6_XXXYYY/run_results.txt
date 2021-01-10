@@ -1,0 +1,78 @@
+01-Coin                                      : XXXYYY
+02-Gain in %                                 : 0.0
+03-Gain in % with less precision transactions: 0.0
+04-Price change in %                         : 0.0
+05-First timestamp                           : 2020-03-25 21:48:40
+06-Last timestamp                            : 1970-01-01 01:00:00
+07-Start balance                             : 100
+08-End balance                               : 0.0
+09-Number of buys                            : 0
+10-Number of sells                           : 0
+11-Number of data points                     : 0
+12-Time needed in sec                        : 0
+13-Run name                                  : run
+14-Start time                                : 2020-03-26 00:00:00
+15-End time                                  : 2020-03-27 02:30:00
+16-Variance of price                         : 0.0
+17-Variance of price derivative              : 0.0
+18-Indicator tree name                       : default_tree
+Indicator tree information                   : 
+ _name     : WorldFormula
+ buy_limit : 1.0546500250884563
+ sell_limit: 0.9909698262010489
+ left_branch: 
+             _name: Buy
+ right_branch: 
+             _name: Sell
+01-Coin                                      : XXXYYY
+02-Gain in %                                 : 0.0
+03-Gain in % with less precision transactions: 0.0
+04-Price change in %                         : 0.0
+05-First timestamp                           : 2020-03-25 21:48:40
+06-Last timestamp                            : 1970-01-01 01:00:00
+07-Start balance                             : 100
+08-End balance                               : 0.0
+09-Number of buys                            : 0
+10-Number of sells                           : 0
+11-Number of data points                     : 0
+12-Time needed in sec                        : 0
+13-Run name                                  : run
+14-Start time                                : 2020-03-26 00:00:00
+15-End time                                  : 2020-03-27 02:30:00
+16-Variance of price                         : 0.0
+17-Variance of price derivative              : 0.0
+18-Indicator tree name                       : default_tree
+Indicator tree information                   : 
+ _name     : WorldFormula
+ buy_limit : 1.0546500250884563
+ sell_limit: 0.9909698262010489
+ left_branch: 
+             _name: Buy
+ right_branch: 
+             _name: Sell
+01-Coin                                      : XXXYYY
+02-Gain in %                                 : 0E-10
+03-Gain in % with less precision transactions: 0E-10
+04-Price change in %                         : -66.66666666666666666666666667
+05-First timestamp                           : 2020-03-25 21:48:40
+06-Last timestamp                            : 2020-03-27 02:17:00
+07-Start balance                             : 100
+08-End balance                               : 100.000000000
+09-Number of buys                            : 0
+10-Number of sells                           : 0
+11-Number of data points                     : 190
+12-Time needed in sec                        : 0.044
+13-Run name                                  : run
+14-Start time                                : 2020-03-26 00:00:00
+15-End time                                  : 2020-03-27 02:30:00
+16-Variance of price                         : 0.0
+17-Variance of price derivative              : 0.0
+18-Indicator tree name                       : default_tree
+Indicator tree information                   : 
+ _name     : WorldFormula
+ buy_limit : 1.0546500250884563
+ sell_limit: 0.9909698262010489
+ left_branch: 
+             _name: Buy
+ right_branch: 
+             _name: Sell

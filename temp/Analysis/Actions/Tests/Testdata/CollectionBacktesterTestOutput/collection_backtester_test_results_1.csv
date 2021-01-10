@@ -1,0 +1,2 @@
+01-Coin,02-Gain in %,03-Gain in % with less precision transactions,04-Price change in %,05-First timestamp,06-Last timestamp,07-Start balance,08-End balance,09-Number of buys,10-Number of sells,11-Number of data points,12-Time needed in sec,13-Run name,14-Start time,15-End time,16-Variance of price,17-Variance of price derivative,18-Indicator tree name
+XXXYYY,0E-10,0E-10,-66.66666666666666666666666667,2020-03-25 22:47:00,2020-03-27 00:45:20,100,100.000000000,0,0,172,0.043,run,2020-03-26 01:00:00,2020-03-27 01:00:00,0.0,0.0,default_tree
