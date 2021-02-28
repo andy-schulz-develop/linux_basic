@@ -1,0 +1,13 @@
+docker container inspect firstbuild
+docker container logs cef14708acd0
+docker container ls -a | grep -v CONTAINER | cut -d' ' -f1 | xargs
+docker container ls -a -s
+docker container rm $(docker container ls -a | grep -v CONTAINER | cut -d' ' -f1 | xargs)
+docker container rm fb9d631ceaaa
+docker container stop 7d05ad1055b7
+docker image ls
+docker image rm 1134240f8512 ddf2a2e27c39 f3f106d9a6e9 ace8bc867885
+docker ps
+docker run --network=host -d --rm firstbuild
+docker stop cef14708acd0
+sudo docker build -t "firstbuild" .

@@ -1,0 +1,16 @@
+FROM python:3.7-slim-buster
+RUN apt-get update \
+    && apt-get install --no-install-recommends --no-install-suggests -y build-essential libmariadb-dev-compat \
+    && rm -rf /var/lib/apt/lists/* \
+    && pip3 install mysqlclient==1.4.2.post1 python-binance==0.7.1\
+    && apt-get remove -y build-essential \
+    && apt-get autoremove -y \
+    && apt-get clean
+# gcc libmariadb3 mariadb-client libmariadb-dev libmariadb-dev-compat python3-dev
+# mariadb-client libmariadb3 libmariadb-dev libmariadb-dev-compat libmariadbclient18 libssl-dev
+RUN pip3 install pika==1.0.1 pytest==4.6.3 requests_mock==1.6.0
+# ARG export_file=goodreads.csv
+# COPY $export_file goodreads_export.csv
+COPY ../../binancetradingbot /binancetradingbot
+WORKDIR /binancetradingbot
+CMD ["python3", "./collector_mainfile.py"]
